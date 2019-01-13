@@ -192,10 +192,11 @@ body {
 
 /*buttons*/
 .button {
-    padding: .5em .67em;
-    color: white;
-    text-decoration: none;
-    border: .1em solid white;
+  padding: .5em .8em;
+  color: white;
+  text-decoration: none;
+  border: .1em solid white;
+  border-radius: 99999px;
 
 }
     
@@ -206,6 +207,7 @@ body {
 
 .button:hover {
   background: grey;
+  color: white;
 }
   
   
