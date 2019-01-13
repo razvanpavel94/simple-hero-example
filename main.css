@@ -1,0 +1,226 @@
+/*start reset*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+/*end reset*/
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+}
+
+
+
+#logo { 
+  font-size: 5vh;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+#menu-icon { 
+  font-size: 2.5rem;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/*hero area*/
+.hero-title {
+  margin: 0;
+  font-size: 9vh;
+  font-weight: bold;
+  line-height: .9;
+  font-family: 'Pacifico';
+  color: white;
+  text-align: center;
+}
+
+.button { 
+  font-size: 3vh; 
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/66/80/5357b0863593a5e.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem;
+}
+
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.hero-title {
+    max-width: 16em;
+    margin: 0;
+    font-size: 12vh;
+    font-weight: bold;
+    line-height: .9;
+}
+    
+@media only screen and (min-width: 512px) { 
+  .hero-title { 
+    font-size: 16vh; 
+  } 
+}   
+
+
+/*footer*/
+.hero-footer {
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*buttons*/
+.button {
+    padding: .5em .67em;
+    color: white;
+    text-decoration: none;
+    border: .1em solid white;
+
+}
+    
+.button-primary {
+        color: black;
+        background-color: white;
+    }
+
+.button:hover {
+  background: grey;
+}
+  
+  
+/*paragraphs and h2*/
+.paragraphs {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0.5em;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.paragraphs h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
